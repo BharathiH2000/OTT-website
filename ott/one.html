@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+         display: flex;
+         justify-content: center;
+         padding-top: 100px;
+          background-image: radial-gradient(red,rgb(153, 255, 0)); 
+         
+      }
+       div{
+        background-color: cadetblue;
+        height: 350px;
+        width: 350px;
+        box-shadow: 30px 30px 30px  black;
+        
+        
+        
+       }
+       h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 50px;
+       }
+       td{
+        margin-left: 50px;
+       }
+       .sub{
+         margin-top: 50px;
+        margin-left: 60px; 
+        /* align-items: center;
+        justify-content: space-around;
+        display: inline; */
+       }
+       table td{
+        font-size: 20px;
+       }
+       
+       
+    </style>
+</head>
+<body>
+    <form action="index.html">
+        <div>
+        <table>
+           <tr>
+            <h2 align="center">SIGN-IN</h2>
+            <td><label for="g">First Name:</label></td>
+            <td><input type="text" placeholder="Enter your Name" id="g" required></td> 
+           </tr>
+         <tr> 
+         <td><label for="t">Last Name:</label></td>
+         <td><input type="text" placeholder="Enter Last Name" required id="t"></td>
+         </tr>
+         <tr>
+            <td><label for="Z">Contact/Email:</label></td>
+            <td><input type="text" id="Z" placeholder="Enter mobile no" required></td>
+         </tr>
+         <tr>
+            <td><label for="x">Password:</label></td>
+            <td><input type="text" id="x" placeholder="Enter Password" required></td>
+         </tr>
+         <tr>
+            <td><label for="y">Confirm Password:</label></td>
+            <td><input type="text" id="y" placeholder="Enter confirm password" required></td>
+         </tr>
+        </table>
+    
+        
+        <input type="submit" class="sub">
+        <input type="reset" class="sub">
+        
+        
+         
+        
+    
+    </div>
+
+        </form>
+</body>
+</html>
